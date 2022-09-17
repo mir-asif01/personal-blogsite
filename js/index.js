@@ -15,3 +15,5 @@ hideMenuBtn.addEventListener('click',function(){
     showMenuBtn.style.display = 'block';
 
 })
+const blogs = document.querySelectorAll('.blog');
+console.log(blogs);
