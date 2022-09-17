@@ -1,0 +1,48 @@
+header{
+    padding: 10px;
+}
+main{
+    padding: 10px;
+}
+.bg-color1{
+    background-color: #AAC4FF;
+}
+.bg-color2{
+    background-color: #D2DAFF;
+}
+.bg-color3{
+    background-color: #EEF1FF;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.no-underline{
+    text-decoration: none;
+    color: black;
+}
+
+/* responsive nav bar  */
+.responsive-nav{
+    position: absolute;
+    top: 9%;
+    left: 0%;
+    width: 100%;
+    display: none;
+}
+/* responsive nav bar  */
+@media only  screen and (max-width:574px)  {
+   .nav-items{
+    display: none;
+   }
+   .hamburger-menu{
+    display: block;
+   }
+}
+@media only  screen and (min-width:575px){
+    .hamburger-menu{
+        display: none;
+       }
+       .responsive-nav{
+        display: none;
+       }
+}
