@@ -63,13 +63,13 @@ main{
 /* responsive nav bar  */
 .responsive-nav{
     position: absolute;
-    top: 9%;
-    left: 0%;
-    width: 100%;
+    top: 11%;
+    right: 3%;
+    width: 250px;
     display: none;
 }
 /* responsive nav bar  */
-@media only  screen and (max-width:574px)  {
+@media only  screen and (max-width:770px)  {
    .nav-items{
     display: none;
    }
@@ -92,7 +92,7 @@ main{
         align-items: center;
     }
 }
-@media only  screen and (min-width:575px){
+@media only  screen and (min-width:771px){
     .hamburger-menu{
         display: none;
        }
