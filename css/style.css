@@ -7,11 +7,17 @@ main{
 .bg-color1{
     background-color: #AAC4FF;
 }
+.text-color1{
+    color: #396eeb;
+}
 .bg-color2{
     background-color: #D2DAFF;
 }
 .bg-color3{
     background-color: #EEF1FF;
+}
+.bg-color4{
+    background-color: #E1FFEE;
 }
 .cursor-pointer{
     cursor: pointer;
@@ -37,15 +43,20 @@ main{
 #res-nav{
     z-index: 1;
 }
-.to-top{
-    height: 50px;
-    width: 50px;
+.to-top-div{
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     background: #AAC4FF;
     position: sticky;
     bottom: 1%;
-    right: 1%;
+    left: 1%;
+    padding: 7px;
 }
+.flexBox{
+    display: flex;
+}
+
 /* responsive nav bar  */
 .responsive-nav{
     position: absolute;
