@@ -3,6 +3,7 @@ header{
 }
 main{
     padding: 10px;
+    background-image: url(../images/main-bg.jpg);
 }
 .bg-color1{
     background-color: #AAC4FF;

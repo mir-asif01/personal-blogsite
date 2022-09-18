@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mir Kamrul Ahsan Asif</title>
+    <title>Welcome to blog page</title>
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/1c4baa6c29.js" crossorigin="anonymous"></script>
@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/blog.css">
 </head>
 <body>
     <header class="container d-flex justify-content-between align-items-center bg-color1" id="header">
@@ -22,7 +23,7 @@
         <div class="nav-items" id="nav-items">
             <div class="nav d-flex justify-content-end">
                 <div class="nav-item">
-                  <a class="nav-link fs-3 text-dark cursor-pointer">Home</a>
+                  <a class="nav-link fs-3 text-dark cursor-pointer" href="../index.html">Home</a>
                 </div>
                 <div class="nav-item">
                   <a class="nav-link fs-3 text-dark cursor-pointer">Blog</a>
@@ -41,15 +42,23 @@
         </div>
         
         <div class="responsive-nav bg-color2 p-3 text-center z-1" id="res-nav">
-          <a class="py-2 mx-4 fs-3 nav-link">Home</a><hr>
+          <a class="py-2 mx-4 fs-3 nav-link" href="../index.html">Home</a><hr>
           <a class="py-2 mx-4 fs-3 nav-link" href="./pages/blog.html">Blog</a><hr>
           <a class="py-2 mx-4 fs-3 nav-link" href="./pages/post.html">Post</a><hr>
           <a class="py-2 mx-4 fs-3 nav-link" href="./pages/feedback.html">Feedback</a>
       </div>
     </header>
+    
+    
     <!-- main container  -->
     <main class="container bg-color3">
-      <h2 class="text-color1" id="featured">All Blog posts</h2>
+        <!-- search area  -->
+        <div class="text-center mt-3">
+            <p><input type="text" class="p-1"> <button class="btn btn-primary mx-2">Search Blog</button></p>
+        </div><hr>
+    <!-- search area  -->
+
+      <h2 class="text-center text-color1" id="featured"><span class="text-dark">All</span> Blog Post</h2><hr>
       <section class="blog-posts">
         <div class="card p-15">
           <div class="row blog">
@@ -116,6 +125,47 @@
             </div>
           </div>
         </div>
+        <div class="card p-15">
+          <div class="row blog">
+            <div class="col-md-4">
+              <img src="../images/ruby.jpeg" class="img-fluid rounded-start" title="python-logo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"> <strong>Ruby</strong> is an interpreted, high-level, general-purpose programming language.</h5>
+                <p class="card-text" id="description">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog-posts" id="hidden-posts">
+        <div class="card p-15">
+            <div class="row blog">
+              <div class="col-md-4">
+                <img src="../images/php.png" class="img-fluid rounded-start" title="python-logo">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"> <strong>PHP</strong> is a widely-used, open source scripting language</h5>
+                  <p class="card-text" id="description">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="card p-15">
+            <div class="row blog">
+              <div class="col-md-4">
+                <img src="../images/csp.png" class="img-fluid rounded-start" title="python-logo">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"> <strong>(C-Sharp)</strong> is a programming language developed by Microsoft that runs on the .NET Framework.</h5>
+                  <p class="card-text" id="description">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
     </main>
     <!-- main container  -->
@@ -123,7 +173,7 @@
     <!-- back to top button  -->
     <div class="to-top-div d-flex justify-content-center align-items-center">
       <div class="text-center p-15">
-        <a href="#header"><i class="fa-solid fa-arrow-up"></i></a>
+        <a href="#header" class="text-dark"><i class="fa-solid fa-arrow-up"></i></a>
       </div>
     </div>
     <!-- back to top button  -->
