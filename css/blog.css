@@ -1,3 +1,4 @@
-main{
+body{
     background-image: url(../images/main-bg.jpg);
+    background-attachment: fixed;
 }
